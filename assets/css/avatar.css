@@ -1,0 +1,37 @@
+/* Estilos para los avatares generados con letras */
+.avatar-letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+/* Diferentes tamaños de avatar */
+.avatar-letter-sm {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.avatar-letter-md {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.avatar-letter-lg {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+}
+
+/* Colores de fondo para los avatares basados en la inicial */
+.bg-letter-a, .bg-letter-f, .bg-letter-k, .bg-letter-p, .bg-letter-u, .bg-letter-z { background-color: #4CAF50; }
+.bg-letter-b, .bg-letter-g, .bg-letter-l, .bg-letter-q, .bg-letter-v { background-color: #2196F3; }
+.bg-letter-c, .bg-letter-h, .bg-letter-m, .bg-letter-r, .bg-letter-w { background-color: #FF9800; }
+.bg-letter-d, .bg-letter-i, .bg-letter-n, .bg-letter-s, .bg-letter-x { background-color: #E91E63; }
+.bg-letter-e, .bg-letter-j, .bg-letter-o, .bg-letter-t, .bg-letter-y { background-color: #9C27B0; }
